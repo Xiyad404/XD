@@ -10,20 +10,20 @@ os.system('xdfileg-open https://facebook.com/Xiyad.4040.XD/')
 import requests
 try:
     if sys.argv[1]=='update':
-        os.system('rm -rf ex.so')
+        os.system('rm -rf rdx.so')
 except:
     pass
-os.system('rm -rf ex.so')
+os.system('rm -rf rdx.so')
 os.system('git pull')
 #os.system('clear')
 #exit('\033[91;1m🄲🄾🄼🄼🄰🄽🄳 🄾🄵🄵\n🄲🄾🄼🄼🄰🄽🄳 🄾🄵🄵\n🄲🄾🄼🄼🄰🄽🄳 🄾🄵🄵\n🄲🄾🄼🄼🄰🄽🄳 🄾🄵🄵\033[1;37m ')
 bit = platform.architecture()[0]
 if bit == '64bit':
-    if not os.path.isfile('xd.so'):
-        os.system('curl -L https://github.com/Xiyad404/XD/blob/main/ex.cpython-311.so?raw=true -o ex.so') 
-        import ex  
+    if not os.path.isfile('rdx.so'):
+        os.system('curl -L https://github.com/Xiyad404/XD/blob/main/rdx.cpython-311.so?raw=true -o rdx.so') 
+        import rdx  
     else:
-        import ex
+        import rdx
 elif bit == '32bit':
     exit('\033[1;31m\n Sorry System or 32bit device not supported ')
     
