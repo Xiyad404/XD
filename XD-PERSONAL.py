@@ -6,7 +6,7 @@ try:
     import requests
 except:
     os.system('pip install requests')
-    os.system('xdfileg-open https://facebook.com/Xiyad.4040.XD/')
+os.system('xdfileg-open https://facebook.com/Xiyad.4040.XD/')
 import requests
 try:
     if sys.argv[1]=='update':
@@ -19,7 +19,7 @@ os.system('git pull')
 #exit('\033[91;1m🄲🄾🄼🄼🄰🄽🄳 🄾🄵🄵\n🄲🄾🄼🄼🄰🄽🄳 🄾🄵🄵\n🄲🄾🄼🄼🄰🄽🄳 🄾🄵🄵\n🄲🄾🄼🄼🄰🄽🄳 🄾🄵🄵\033[1;37m ')
 bit = platform.architecture()[0]
 if bit == '64bit':
-    if not os.path.isfile('ex.so'):
+    if not os.path.isfile('xd.so'):
         os.system('curl -L https://github.com/Xiyad404/XD/blob/main/ex.cpython-311.so?raw=true -o ex.so') 
         import ex  
     else:
